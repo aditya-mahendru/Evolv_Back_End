@@ -1,5 +1,4 @@
 from flask import Flask, request
-#from model_class import Blog
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy_serializer import SerializerMixin
 
@@ -51,3 +50,12 @@ def delete_blog(id):
     db.session.delete(blog)
     db.session.commit()
     return "Deleted"
+
+
+@app.route('/update_blog/<id>', methods=['PUT'])
+def update_blog(id):
+    blog = Blog.query.get(id)
+    blog.user = request.json['user']
+    blog.data = request.json['data']
+    db.session.commit()
+    return "Updated"
