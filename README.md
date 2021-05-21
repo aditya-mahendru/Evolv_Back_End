@@ -6,13 +6,13 @@ APIs for CRUD operations on a Database handling blogs
 
 This project needs 
 
--Flask
+* Flask
 `pip3 install flask`
 
--Flask-SQLALchemy
+* Flask-SQLALchemy
 `pip3 install flask-sqlalchemy`
 
--SQLAlchemy-serializer
+* SQLAlchemy-serializer
 `pip3 install SQLAlchemy-serializer`
 
 to work correctly.
