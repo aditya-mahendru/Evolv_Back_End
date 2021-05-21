@@ -30,7 +30,7 @@ For basic execution:
 
 `export FLASK_APP = app.py`
 
-`export FLASK_ENT = development`
+`export FLASK_ENV = development`
 to enable debug mode.
 
 `flask run`
