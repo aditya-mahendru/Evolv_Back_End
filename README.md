@@ -45,5 +45,10 @@ to enable debug mode.
 |DELETE|`/del_blog/<id>`|-|
 |PUT|`/update_blog/<id>`|-|
 
+## Postman
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/15819335-67ee9064-71dc-43d6-8829-cdec10d3cac2?action=collection%2Ffork&collection-url=entityId%3D15819335-67ee9064-71dc-43d6-8829-cdec10d3cac2%26entityType%3Dcollection%26workspaceId%3D545445f2-c9f2-4e78-9a38-da7379e3ef1b)
+
+
 
   
