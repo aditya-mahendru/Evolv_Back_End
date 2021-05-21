@@ -22,7 +22,7 @@ to work correctly.
 
 To install the project repo, run the following git command:
 
-`https://github.com/aditya-mahendru/Evolv_Back_End.git`
+`git clone https://github.com/aditya-mahendru/Evolv_Back_End.git`
 
 ## Usage
 
